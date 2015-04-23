@@ -2,11 +2,11 @@
 
 class Player
 {
-    const VERSION = "Default PHP folding player";
+    const VERSION = "All lean";
 
     public function betRequest($game_state)
     {
-        return 0;
+        return 1000;
     }
 
     public function showdown($game_state)
