@@ -2,11 +2,11 @@
 
 class Player
 {
-    const VERSION = "Rand lean";
+    const VERSION = "Rand more";
 
     public function betRequest($game_state)
     {
-        return rand(1,1000);
+        return 500 + rand(501,1000);
     }
 
     public function showdown($game_state)
